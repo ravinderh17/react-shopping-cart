@@ -1,0 +1,13 @@
+:root {
+    font-family: "Red Hat Text", serif;
+    line-height: 1.5;
+    margin: 0 ;  
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: hsl(20, 50%, 98%);
+    --Rose-50: hsl(20, 50%, 98%);
+    --Rose_100 : hsl(13, 31%, 94%);
+    --Rose-300: hsl(14, 25%, 72%);
+    --Red: hsl(14, 86%, 42%);
+  }
+

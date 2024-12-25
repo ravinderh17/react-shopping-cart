@@ -1,0 +1,81 @@
+.App-container{
+  background-color: var(--Rose_50);
+  border-radius: 5px;
+  position: relative;
+  padding: 0 3% 3% 3%; 
+  margin: 3% 6%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.product-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px; 
+  line-height: 0.4rem;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  display:grid;
+  border: none;
+  height: 100vh;
+}
+
+.Cart{
+  min-width: 25%;
+  text-align: center;
+  margin-top: 22.5%;
+}
+
+/* --------------------------------------------------*/
+@media (max-width: 1040px) {
+  .App-container{
+    display:flex; flex-direction: column;
+  }
+}
+@media (max-width: 740px) {
+  .products-list{
+  display: flex; 
+  align-items: center; justify-content: center;
+}
+  /* .products-container{
+  } */
+}
+/* -------FONT STYLING------------ */
+h1{
+  color: black;
+  font-weight: 500;
+}
+
+p,h4{  
+  font-size: 16px;
+  font-weight: 500;
+}
+/* ------------------------------------------------------------ */
+/* General scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the vertical scrollbar */
+  height: 8px; /* Height of the horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Light background for the track */
+  border-radius: 10px; /* Rounded edges for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c73b0f; /* Main color for the scrollbar thumb */
+  border-radius: 10px; /* Rounded edges for the thumb */
+  border: 2px solid #f0f0f0; /* Space between thumb and track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #892505; /* Darker color when hovering */
+}
+
+/* Styling for Firefox */
+* {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: transparent transparent; /* Thumb and track colors */
+}
