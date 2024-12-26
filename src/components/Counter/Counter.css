@@ -11,10 +11,9 @@
     border-radius: 25px;
     width: 60%;
     font-family: "Red Hat Text", serif !important;
-
 }
-.counter-main-component button span {
-    display: none;
+.counter-main-component:hover{
+    opacity: none;
 }
 /* --------------------------------------------------*/
 @media (max-width: 740px) {

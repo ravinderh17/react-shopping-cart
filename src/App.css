@@ -2,18 +2,33 @@
   background-color: var(--Rose_50);
   border-radius: 5px;
   position: relative;
-  padding: 0 3% 3% 3%; 
+  line-height: 1rem;
+  padding: 0 3% 4% 3%; 
   margin: 3% 6%;
   height: auto;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; */
   display: grid;
   grid-template-columns: 2fr 1fr;
+}
+:root{
+  overflow: auto;
+}
+
+.App-header h2{
+  text-align: left;
+  font-size:x-large;
+  font-weight: 600;
+}
+.App-header{
+  display: flex;
+  align-items: center;
+  gap: 2%;
 }
 
 .product-list{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px; 
+  gap: .1%; 
   line-height: 0.4rem;
   overflow-y:scroll;
   overflow-x: hidden;
@@ -25,7 +40,7 @@
 .Cart{
   min-width: 25%;
   text-align: center;
-  margin-top: 22.5%;
+  margin-top: 15.5%;
 }
 
 /* --------------------------------------------------*/

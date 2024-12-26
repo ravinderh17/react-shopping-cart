@@ -12,10 +12,10 @@
     },
     {
         "image": {
-            "thumbnail": "/public/assets/images/shopping (1).webp",
-            "mobile": "/assets/images/shopping (1).webp",
-            "tablet": "/assets/images/shopping (1).webp",
-            "desktop": "/assets/images/shopping (1).webp"
+            "thumbnail": "/public/assets/images/shopping (1).png",
+            "mobile": "/assets/images/shopping (1).png",
+            "tablet": "/assets/images/shopping (1).png",
+            "desktop": "/assets/images/shopping (1).png"
        },
        "name": "Blueberry Cheesecake",
        "category": "Cake",

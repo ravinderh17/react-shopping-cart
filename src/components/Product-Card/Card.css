@@ -1,15 +1,18 @@
 .productCard-head{
     position: relative;
-  }
-  
-  .productCard-body{
+}
+picture:hover{
+  opacity: 80%;
+} 
+.productCard-body{
     max-width: 100%;
     padding-top: 1em;
-  }
-  .card img{
+}
+.card img{
     height: 200px;
+    width: 95%;
     border-radius: 10px;
-  }
+}
 
   .card-button{
     border-radius: 30px;
@@ -24,16 +27,14 @@
     width: 60%;
     cursor: pointer;
     right: 22%;
-  }
-.card-button{
     font-family: "Red Hat Text", serif !important;
     font-size:smaller;
     font-weight: 400;
-    background-color: #fff;
   }
 .card-button:hover {
-  background-color: rgb(246, 246, 247);
+  opacity: 70%;
 }
+
 /* --------------------------------------------------*/
 @media (max-width: 630px) {
   .card-button{

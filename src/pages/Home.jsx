@@ -1,5 +1,6 @@
 import Card from '../components/Product-Card/Card'
 import data from '../../data.json'
+import { ReactSVG } from 'react-svg'
 import Cart from '../components/Cart/Cart'
 import OrderModal from '../components/OrderModal/OrderModal'
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
         <div className="App-container">
         <div className="products-container">
         <div className="App-header">
-          <h2>Gourmet Desserts</h2>
+          <h2>Desserts</h2>
           </div>
             <div className="product-list">
             {data.map((product, index)=> (
