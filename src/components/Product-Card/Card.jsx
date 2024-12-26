@@ -12,7 +12,7 @@ export default function Card({product}) {
     //  display counter component instead of button -- only if item/product from list of products already present under cart-items section---- (cart-items have name of that product --- (we can use cartitems[name]))
     const dispatch = useDispatch()
     const cartItems = useSelector((state) => (state.cart.items))
-    const {image, name, category, price} = product
+    const {image, name, price} = product
     const uniqueId = `clip-${Math.random().toString(36).substring(2, 9)}`;
     const handleAddToCart = () => {
       dispatch(addtoCart(name))
@@ -43,7 +43,7 @@ export default function Card({product}) {
           </div>
 
         <div className="productCard-body">
-              <p className="card-category">{category}</p>       
+              {/* <p className="card-category">{category}</p>        */}
               <h4 className="card-title">{name}</h4>
               <div className="price">
                 <p className="card-price">{`$ ${price}`}</p>

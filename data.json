@@ -10,17 +10,7 @@
         "category": "Pie",
         "price": 5.15
     },
-    {
-        "image": {
-            "thumbnail": "/public/assets/images/shopping (1).png",
-            "mobile": "/assets/images/shopping (1).png",
-            "tablet": "/assets/images/shopping (1).png",
-            "desktop": "/assets/images/shopping (1).png"
-       },
-       "name": "Blueberry Cheesecake",
-       "category": "Cake",
-       "price": 71.96 
-    },
+    
     {
     "image": {
             "thumbnail": "/assets/images/image-waffle-thumbnail.jpg",
@@ -42,17 +32,6 @@
         "name": "Vanilla Bean Crème Brûlée",
         "category": "Crème Brûlée",
         "price": 7.00
-     },
-     {
-        "image": {
-            "thumbnail": "/assets/images/image-macaron-thumbnail.jpg",
-            "mobile": "/assets/images/image-macaron-mobile.jpg",
-            "tablet": "/assets/images/image-macaron-tablet.jpg",
-            "desktop": "/assets/images/image-macaron-desktop.jpg"
-        },
-        "name": "Macaron Mix of Five",
-        "category": "Macaron",
-        "price": 8.00
      },
      {
         "image": {

@@ -1,6 +1,5 @@
 import Card from '../components/Product-Card/Card'
 import data from '../../data.json'
-import { ReactSVG } from 'react-svg'
 import Cart from '../components/Cart/Cart'
 import OrderModal from '../components/OrderModal/OrderModal'
 export default function Home() {
